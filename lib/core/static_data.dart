@@ -1,0 +1,1 @@
+import 'package:final_project/log_in.dart';import 'package:flutter/material.dart';class StaticData {  static UserModel? user;}class UserModel {  String name;  String phone;  String email;  String pass;  UserModel(this.name, this.phone, this.email, this.pass);}
